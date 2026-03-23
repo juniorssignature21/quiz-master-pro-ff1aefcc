@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        heading: ['"Space Grotesk"', 'sans-serif'],
+        body: ['"Inter"', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -46,6 +50,14 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        quiz: {
+          correct: "hsl(var(--quiz-correct))",
+          wrong: "hsl(var(--quiz-wrong))",
+          option: "hsl(var(--quiz-option))",
+          "option-hover": "hsl(var(--quiz-option-hover))",
+          selected: "hsl(var(--quiz-selected))",
+          timer: "hsl(var(--quiz-timer))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
