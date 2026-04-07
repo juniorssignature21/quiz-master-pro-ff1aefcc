@@ -171,6 +171,8 @@ export interface Course {
   questions: Question[];
 }
 
+import { SEN201_QUESTIONS } from "./sen201-questions";
+
 export const COURSES: Course[] = [
   {
     id: "ent211",
@@ -178,5 +180,12 @@ export const COURSES: Course[] = [
     code: "ENT 211",
     totalQuestions: 150,
     questions: ENT211_QUESTIONS,
+  },
+  {
+    id: "sen201",
+    name: "Object-Oriented Software Development",
+    code: "SEN 201",
+    totalQuestions: 129,
+    questions: SEN201_QUESTIONS,
   },
 ];
