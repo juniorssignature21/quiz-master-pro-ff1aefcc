@@ -183,7 +183,7 @@ export const COURSES: Course[] = [
   },
   {
     id: "sen201",
-    name: "Object-Oriented Software Development",
+    name: "Introduction to Software Engineering",
     code: "SEN 201",
     totalQuestions: 129,
     questions: SEN201_QUESTIONS,
